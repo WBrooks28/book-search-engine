@@ -5,7 +5,7 @@ const typeDefs = gql`
         me: User
     }
 
-    type Mutations {
+    type Mutation {
         login(email: String!, password: String!): Auth
         createUser(username: String!, email: String!, password: String!): Auth
         saveBook(input: SavedBookInput): User
