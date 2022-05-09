@@ -9,7 +9,6 @@ export const GET_ME = gql`
             bookCount
             savedBooks {
                 bookId
-                link
                 authors
                 title
                 description
